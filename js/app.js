@@ -175,12 +175,12 @@ let Tokyo={
 Tokyo.randomCustomerPerHour();
 Tokyo.randomCookiesPerHour();
 Tokyo.createElement();
-///////////////////////////////////////////////////
+///////////////////////////////////////////////////11 	38 	3.7
 let Dubai={
   location: 'Dubai',
-  minCust: 3,
-  maxCust: 24,
-  avgcookiesPerHoursSales: 1.2,
+  minCust: 11,
+  maxCust: 38,
+  avgcookiesPerHoursSales: 3.7,
   allAverage: 0,
   customerPerHour: [],
   cookiesPerHour: [],
@@ -233,9 +233,9 @@ Dubai.createElement();
 //////////////////////////////////////////////
 let Paris={
   location: 'Paris',
-  minCust: 11,
+  minCust: 20,
   maxCust: 38,
-  avgcookiesPerHoursSales: 3.7,
+  avgcookiesPerHoursSales: 2.3,
   allAverage: 0,
   customerPerHour: [],
   cookiesPerHour: [],
@@ -288,9 +288,9 @@ Paris.createElement();
 ///////////////////////////////////////
 let Lima={
   location: 'Lima',
-  minCust: 11,
-  maxCust: 38,
-  avgcookiesPerHoursSales: 3.7,
+  minCust: 2,
+  maxCust: 16,
+  avgcookiesPerHoursSales: 4.6,
   allAverage: 0,
   customerPerHour: [],
   cookiesPerHour: [],
