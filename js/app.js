@@ -22,7 +22,7 @@
 //         7am: 20 cookiesPerHours
 //         8am: 35 cookiesPerHours
 //         9am: 48 cookiesPerHours
-//         10am: 56 cookiesPerHours
+//         10am: 56 cookie  sPerHours
 //         11am: 77 cookiesPerHours
 //         12pm: 93 cookiesPerHours
 //         1pm: 144 cookiesPerHours
@@ -80,8 +80,8 @@ let storeHour = [
   '5pm',
   '6pm',
   '7pm',
-  '8pm',
 ];
+
 let mainElement = document.getElementById('mainElement');
 let seattle = {
   location: 'Seattle',
@@ -123,6 +123,9 @@ let seattle = {
       listElement.textContent =
         storeHour[i] + ' : ' + this.cookiesPerHour[i] + ' ' + 'cookies';
     }
+    listElement = document.createElement('li');
+    unOrderdList.appendChild(listElement);
+    listElement.textContent = 'allAverage : ' + this.allAverage + 'cookies';
   },
 };
 
@@ -170,13 +173,16 @@ let Tokyo = {
       listElement.textContent =
         storeHour[i] + ' : ' + this.cookiesPerHour[i] + ' ' + 'cookies';
     }
+    listElement = document.createElement('li');
+    unOrderdList.appendChild(listElement);
+    listElement.textContent = 'allAverage : ' + this.allAverage + 'cookies';
   },
 };
 
 Tokyo.randomCustomerPerHour();
 Tokyo.randomCookiesPerHour();
 Tokyo.createElement();
-///////////////////////////////////////////////////11 	38 	3.7
+///////////////////////////////////////////////////
 let Dubai = {
   location: 'Dubai',
   minCust: 11,
@@ -217,6 +223,9 @@ let Dubai = {
       listElement.textContent =
         storeHour[i] + ' : ' + this.cookiesPerHour[i] + ' ' + 'cookies';
     }
+    listElement = document.createElement('li');
+    unOrderdList.appendChild(listElement);
+    listElement.textContent = 'allAverage : ' + this.allAverage + 'cookies';
   },
 };
 
@@ -264,6 +273,9 @@ let Paris = {
       listElement.textContent =
         storeHour[i] + ' : ' + this.cookiesPerHour[i] + ' ' + 'cookies';
     }
+    listElement = document.createElement('li');
+    unOrderdList.appendChild(listElement);
+    listElement.textContent = 'allAverage : ' + this.allAverage + 'cookies';
   },
 };
 
@@ -311,6 +323,9 @@ let Lima = {
       listElement.textContent =
         storeHour[i] + ' : ' + this.cookiesPerHour[i] + ' ' + 'cookies';
     }
+    listElement = document.createElement('li');
+    unOrderdList.appendChild(listElement);
+    listElement.textContent = 'allAverage : ' + this.allAverage + 'cookies';
   },
 };
 
